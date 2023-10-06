@@ -710,6 +710,7 @@
 											"model": {
 												"$ref": "AAAAAAGKj2dHEVeS1nE="
 											},
+											"visible": false,
 											"font": "Arial;13;0",
 											"left": 261,
 											"top": 547,
@@ -723,7 +724,7 @@
 									"left": 256,
 									"top": 497,
 									"width": 133.93798828125,
-									"height": 68
+									"height": 53
 								},
 								{
 									"_type": "UMLOperationCompartmentView",
@@ -736,7 +737,7 @@
 									},
 									"font": "Arial;13;0",
 									"left": 256,
-									"top": 565,
+									"top": 550,
 									"width": 133.93798828125,
 									"height": 10
 								},
@@ -1548,6 +1549,19 @@
 							},
 							"lineStyle": 1,
 							"points": "351:373;320:374"
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "AAAAAAGLBo1I0+a7+z4=",
+							"_parent": {
+								"$ref": "AAAAAAFF+qBtyKM79qY="
+							},
+							"font": "Arial;13;0",
+							"left": 8,
+							"top": 8,
+							"width": 457,
+							"height": 137,
+							"text": "Se quiere diseñar una base de datos  para almacenar información sobre los asuntos ( Casos) que lleva un gabinete de abogados. Cada asunto tiene un número de expediente que lo identifica, y corresponde a un solo cliente. Del asunto se debe almacenar el período (fecha de inicio y fecha de archivo o finalización), su estado (en trámite, archivado, etc.), así como los datos personales del cliente al que pertenece (Ci, nombre, dirección, etc.). Algunos asuntos son llevados por uno o varios abogados, de los que nos interesa también los datos personales. Además la fecha en el que se asignó un asunto a un abogado"
 						}
 					]
 				},
@@ -1680,7 +1694,8 @@
 							"_parent": {
 								"$ref": "AAAAAAGKj1VjcFX5th0="
 							},
-							"name": "Ci"
+							"name": "Ci",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -1688,7 +1703,8 @@
 							"_parent": {
 								"$ref": "AAAAAAGKj1VjcFX5th0="
 							},
-							"name": "Nombre"
+							"name": "Nombre",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -1696,7 +1712,8 @@
 							"_parent": {
 								"$ref": "AAAAAAGKj1VjcFX5th0="
 							},
-							"name": "Direccion"
+							"name": "Direccion",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -1755,7 +1772,8 @@
 							"_parent": {
 								"$ref": "AAAAAAGKj1ZvZlbJBls="
 							},
-							"name": "Nro de expediente"
+							"name": "Nro de expediente",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -1763,7 +1781,8 @@
 							"_parent": {
 								"$ref": "AAAAAAGKj1ZvZlbJBls="
 							},
-							"name": "Fecha Inicio"
+							"name": "Fecha Inicio",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -1771,7 +1790,8 @@
 							"_parent": {
 								"$ref": "AAAAAAGKj1ZvZlbJBls="
 							},
-							"name": "Fecha final"
+							"name": "Fecha final",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -1779,7 +1799,8 @@
 							"_parent": {
 								"$ref": "AAAAAAGKj1ZvZlbJBls="
 							},
-							"name": "Estado"
+							"name": "Estado",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -1815,7 +1836,8 @@
 							"_parent": {
 								"$ref": "AAAAAAGKj1aCt1cOlbA="
 							},
-							"name": "Nombre"
+							"name": "Nombre",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -1823,7 +1845,8 @@
 							"_parent": {
 								"$ref": "AAAAAAGKj1aCt1cOlbA="
 							},
-							"name": "Ci"
+							"name": "Ci",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -1831,7 +1854,8 @@
 							"_parent": {
 								"$ref": "AAAAAAGKj1aCt1cOlbA="
 							},
-							"name": "Registro"
+							"name": "Registro",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -1839,7 +1863,8 @@
 							"_parent": {
 								"$ref": "AAAAAAGKj1aCt1cOlbA="
 							},
-							"name": "FechaDeAsginacion"
+							"name": "FechaDeAsginacion",
+							"type": ""
 						}
 					]
 				},
@@ -1888,7 +1913,8 @@
 							"_parent": {
 								"$ref": "AAAAAAGKj3MosWRPQbM="
 							},
-							"name": "FechaAig"
+							"name": "FechaAig",
+							"type": ""
 						}
 					]
 				},
