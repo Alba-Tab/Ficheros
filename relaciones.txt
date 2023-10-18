@@ -1,0 +1,15 @@
+Relacion de composicion
+es una relacion estatica donde el tiempo de vida del objeto incluido(aulas,cuota) esta condicionada por el tiempo de vida del que lo incluye(modulo, plan de pagos) representado por un rombo relleno que apunta al todo, y es cuando dos subclases componen a la clase "padre"
+un ejemplo seria modulos()
+
+relacion de agregacion rombo sin relleno
+el tiempo de vida del objeto incluido es independiente del que lo incluye
+(el objeto base utiliza al inluido para su funcionamiento)
+
+relacion de generalizacion
+indica que una clase hereda los metodos y atributos especificados por una superclase, por ende la subclase ademas de poseer sus propios metodos y atributos poseera las caracteristicas y atributos visibles de la superclase
+		cliente
+persona				
+		vendedor
+
+cliente y vendedor heredan los atributos de la clase persona
